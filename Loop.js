@@ -98,9 +98,24 @@
 //     console.log(i)
 // }
 
-for(i=1;i<=15;i++){
-    if(i==9){
-        continue
-    }
-    console.log(i)
-}
+// for(i=1;i<=15;i++){
+//     if(i==9){
+//         continue
+//     }
+//     console.log(i)
+// }
+
+// for(i=1;i<=25;i++){
+//     if(i%3==0){
+//         continue
+//     }
+//     console.log(i)
+// }
+
+// for(i=91;i<=120;i++){
+//     console.log(i)
+//     if(i%10==0){
+//         break
+//     }
+    
+// }

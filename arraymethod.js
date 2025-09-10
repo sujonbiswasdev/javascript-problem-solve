@@ -39,3 +39,7 @@
 // const neestedArray = [10,20,[20,40,[30,50]]]
 // const nesttedresult = neestedArray.flat(2)
 // console.log(nesttedresult) 
+
+// const reduceArray = [10,20,30]
+// const reduceresut = reduceArray.reduce((num,sum)=> num+sum)
+// console.log(reduceresut)

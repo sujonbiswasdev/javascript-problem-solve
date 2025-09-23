@@ -53,4 +53,4 @@ console.log("constractor")
 // console.log(Math.floor(7.2))
 // console.log(Math.ceil(7.2))
 
-// console.log(Math.random()+9)
+//

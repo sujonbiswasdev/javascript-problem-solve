@@ -1,0 +1,18 @@
+div{
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+}
+.bodyy{
+    background-color: black;
+    color: white;
+    min-height:100%;
+}
+li{
+    color: aliceblue;
+}
+.hero{
+    color: white;
+    background-color: red;
+}

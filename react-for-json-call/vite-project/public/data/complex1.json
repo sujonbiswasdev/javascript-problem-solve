@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "address": {
+      "street": "42 Sunset Blvd",
+      "city": "Los Angeles",
+      "country": "USA",
+      "postalCode": "90028"
+    },
+    "title": "Senior Developer",
+    "phoneNumber": "+1-202-555-0185",
+    "profession": "Software Engineer",
+    "wears": ["T-shirt", "Jeans", "Sneakers"]
+  },
+  {
+    "name": "Rajesh Kumar",
+    "email": "rajesh.kumar@example.in",
+    "address": {
+      "street": "12 MG Road",
+      "city": "Bangalore",
+      "country": "India",
+      "postalCode": "560001"
+    },
+    "title": "Project Manager",
+    "phoneNumber": "+91-98765-43210",
+    "profession": "IT Consultant",
+    "wears": ["Formal Shirt", "Trousers", "Leather Shoes"]
+  },
+  {
+    "name": "Sophia Müller",
+    "email": "sophia.mueller@example.de",
+    "address": {
+      "street": "Hauptstrasse 15",
+      "city": "Berlin",
+      "country": "Germany",
+      "postalCode": "10115"
+    },
+    "title": "UX Designer",
+    "phoneNumber": "+49-30-1234567",
+    "profession": "Graphic Designer",
+    "wears": ["Blazer", "Skirt", "Heels"]
+  },
+  {
+    "name": "Carlos Mendes",
+    "email": "carlos.mendes@example.br",
+    "address": {
+      "street": "Rua das Flores 220",
+      "city": "São Paulo",
+      "country": "Brazil",
+      "postalCode": "01010-000"
+    },
+    "title": "Data Scientist",
+    "phoneNumber": "+55-11-99876-5432",
+    "profession": "AI Researcher",
+    "wears": ["Hoodie", "Jeans", "Sneakers"]
+  },
+  {
+    "name": "Emma Wilson",
+    "email": "emma.wilson@example.co.uk",
+    "address": {
+      "street": "221B Baker Street",
+      "city": "London",
+      "country": "UK",
+      "postalCode": "NW1 6XE"
+    },
+    "title": "Marketing Director",
+    "phoneNumber": "+44-20-7946-0958",
+    "profession": "Digital Marketer",
+    "wears": ["Coat", "Scarf", "Boots"]
+  }
+]

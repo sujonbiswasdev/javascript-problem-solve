@@ -1,0 +1,232 @@
+[
+  {
+    "id": "user_001",
+    "name": {
+      "first": "Alice",
+      "middle": "Marie",
+      "last": "Johnson",
+      "aliases": ["AJ", "Ally"]
+    },
+    "email": "alice.johnson@example.com",
+    "contact": {
+      "phoneNumbers": [
+        { "type": "mobile", "number": "+1-202-555-0185" },
+        { "type": "work", "number": "+1-202-555-0199" },
+        { "type": "home", "number": "+1-202-555-0123" }
+      ],
+      "emergencyContacts": [
+        {
+          "name": "Robert Johnson",
+          "relation": "Father",
+          "phone": "+1-202-555-0111"
+        }
+      ]
+    },
+    "address": {
+      "current": {
+        "street": "42 Sunset Blvd",
+        "city": "Los Angeles",
+        "state": "California",
+        "country": "USA",
+        "postalCode": "90028",
+        "geo": { "lat": 34.098, "lng": -118.329 }
+      },
+      "previous": [
+        {
+          "street": "11 Pine Street",
+          "city": "San Francisco",
+          "state": "California",
+          "country": "USA",
+          "postalCode": "94111",
+          "geo": { "lat": 37.792, "lng": -122.399 }
+        }
+      ]
+    },
+    "profession": {
+      "current": "Software Engineer",
+      "previousRoles": [
+        { "title": "Junior Developer", "company": "DevWorks", "years": 2 },
+        { "title": "Software Engineer", "company": "Innovatech Ltd.", "years": 3 }
+      ],
+      "skills": [
+        { "language": "JavaScript", "level": "Expert", "yearsExperience": 6 },
+        { "language": "Python", "level": "Intermediate", "yearsExperience": 4 },
+        { "language": "Docker", "level": "Advanced", "yearsExperience": 3 }
+      ]
+    },
+    "company": {
+      "name": "TechSolutions Inc.",
+      "position": "Lead Developer",
+      "projects": [
+        {
+          "name": "Project Phoenix",
+          "role": "Frontend Lead",
+          "technologies": ["React", "TailwindCSS", "Node.js"],
+          "tasks": [
+            { "task": "UI Development", "status": "Completed" },
+            { "task": "Integration with Backend", "status": "In Progress" }
+          ],
+          "teamMembers": [
+            { "name": "Bob Martin", "role": "Backend Dev" },
+            { "name": "Cathy Lee", "role": "Designer" }
+          ],
+          "durationMonths": 12
+        },
+        {
+          "name": "AI Chatbot",
+          "role": "Fullstack Developer",
+          "technologies": ["Python", "TensorFlow", "React"],
+          "tasks": [
+            { "task": "Model Training", "status": "Completed" },
+            { "task": "Frontend Chat Interface", "status": "Pending" }
+          ],
+          "teamMembers": [
+            { "name": "Derek White", "role": "AI Researcher" }
+          ],
+          "durationMonths": 8
+        }
+      ]
+    },
+    "wears": [
+      {
+        "type": "T-shirt",
+        "brand": "Nike",
+        "color": "Blue",
+        "size": "M",
+        "material": "Cotton",
+        "occasions": ["Casual", "Workout"],
+        "inventory": {
+          "purchasedFrom": "Nike Store LA",
+          "purchaseDate": "2025-01-10",
+          "wornCount": 35,
+          "lastWorn": "2025-09-22"
+        }
+      },
+      {
+        "type": "Jeans",
+        "brand": "Levi's",
+        "color": "Black",
+        "size": "32",
+        "material": "Denim",
+        "occasions": ["Casual"],
+        "inventory": {
+          "purchasedFrom": "Levi's Outlet",
+          "purchaseDate": "2024-11-05",
+          "wornCount": 50,
+          "lastWorn": "2025-09-21"
+        }
+      }
+    ],
+    "socialProfiles": [
+      { "platform": "LinkedIn", "url": "https://linkedin.com/in/alicejohnson" },
+      { "platform": "GitHub", "url": "https://github.com/alicejohnson" },
+      { "platform": "Twitter", "url": "@alice_j" }
+    ],
+    "meta": {
+      "createdAt": "2025-09-20T10:30:00Z",
+      "updatedAt": "2025-09-23T15:45:00Z",
+      "status": "active",
+      "tags": ["developer", "fullstack", "AI"]
+    }
+  },
+  {
+    "id": "user_002",
+    "name": {
+      "first": "Rajesh",
+      "middle": "Kumar",
+      "last": "Sharma",
+      "aliases": ["RKS", "Raj"]
+    },
+    "email": "rajesh.sharma@example.in",
+    "contact": {
+      "phoneNumbers": [
+        { "type": "mobile", "number": "+91-98765-43210" },
+        { "type": "office", "number": "+91-80-2222-3333" }
+      ],
+      "emergencyContacts": [
+        {
+          "name": "Sunita Sharma",
+          "relation": "Mother",
+          "phone": "+91-98765-11111"
+        }
+      ]
+    },
+    "address": {
+      "current": {
+        "street": "12 MG Road",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
+        "postalCode": "560001",
+        "geo": { "lat": 12.9716, "lng": 77.5946 }
+      },
+      "previous": [
+        {
+          "street": "45 Residency Road",
+          "city": "Bangalore",
+          "state": "Karnataka",
+          "country": "India",
+          "postalCode": "560025",
+          "geo": { "lat": 12.9711, "lng": 77.5940 }
+        }
+      ]
+    },
+    "profession": {
+      "current": "Project Manager",
+      "previousRoles": [
+        { "title": "Team Lead", "company": "Infosys", "years": 4 },
+        { "title": "Software Engineer", "company": "TCS", "years": 3 }
+      ],
+      "skills": [
+        { "skill": "Project Management", "level": "Expert" },
+        { "skill": "Agile", "level": "Advanced" },
+        { "skill": "AWS", "level": "Intermediate" }
+      ]
+    },
+    "company": {
+      "name": "GlobalTech Solutions",
+      "position": "Project Manager",
+      "projects": [
+        {
+          "name": "ERP Implementation",
+          "role": "Project Lead",
+          "technologies": ["SAP", "Oracle", "AWS"],
+          "teamMembers": [
+            { "name": "Maya Rao", "role": "Business Analyst" },
+            { "name": "Kiran Patel", "role": "Developer" }
+          ],
+          "milestones": [
+            { "milestone": "Planning", "completed": true },
+            { "milestone": "Execution", "completed": false }
+          ]
+        }
+      ]
+    },
+    "wears": [
+      {
+        "type": "Formal Shirt",
+        "brand": "Raymond",
+        "color": "White",
+        "size": "L",
+        "material": "Cotton",
+        "occasions": ["Work", "Meetings"],
+        "inventory": {
+          "purchasedFrom": "Raymond Bangalore",
+          "purchaseDate": "2025-02-10",
+          "wornCount": 40,
+          "lastWorn": "2025-09-20"
+        }
+      }
+    ],
+    "socialProfiles": [
+      { "platform": "LinkedIn", "url": "https://linkedin.com/in/rajeshsharma" },
+      { "platform": "Facebook", "url": "https://facebook.com/rajesh.sharma" }
+    ],
+    "meta": {
+      "createdAt": "2025-09-18T08:20:00Z",
+      "updatedAt": "2025-09-22T12:10:00Z",
+      "status": "active",
+      "tags": ["manager", "agile", "fullstack"]
+    }
+  }
+]

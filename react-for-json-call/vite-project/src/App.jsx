@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import './App.css'
 import { useEffect } from 'react'
+import Complex from './components/jsonfile/Complex'
 
 function App() {
   const [data,setdata]= useState([])
@@ -12,8 +13,8 @@ function App() {
   })
   return (
     <>
-     <h1>sujon biswas</h1>
-     {data.map((item,index)=>{
+     {/* <h1>sujon biswas</h1> */}
+     {/* {data.map((item,index)=>{
       return <div key={index}>
         <li>{item.name}</li>
         <li>{item.email}</li>
@@ -31,7 +32,9 @@ function App() {
           })}
         </div>
       </div>
-     })}
+     })} */}
+     <Complex/>
+
     </>
   )
 }

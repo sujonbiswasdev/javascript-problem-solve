@@ -1,0 +1,14 @@
+{
+  "name": "problem-solve",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ps01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"node --watch ps01.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

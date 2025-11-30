@@ -5,10 +5,13 @@
   "main": "ps01.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"node --watch ps01.js"
+    "dev": "node --watch ps03.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "devDependencies": {
+    "tsx": "^4.21.0"
+  }
 }
